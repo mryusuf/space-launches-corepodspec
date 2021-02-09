@@ -48,6 +48,7 @@ Pod::Spec.new do |spec|
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.framework  = "UIKit"
+  spec.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO'}
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
